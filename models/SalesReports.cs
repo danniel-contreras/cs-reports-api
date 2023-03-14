@@ -23,6 +23,6 @@ public class SalesI
     public int ticket { get; set; }
     public string? salesman { get; set; }
     public string? branch { get; set; }
-    public string? date { get; set; }
+    public DateTime? date { get; set; }
     public double total { get; set; }
 }
